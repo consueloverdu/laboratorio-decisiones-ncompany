@@ -1,5 +1,7 @@
 # Laboratorio de decisiones · NCompany
 
+[Abrir la aplicación](https://consueloverdu.github.io/laboratorio-decisiones-ncompany/)
+
 Prototipo web para un taller de toma de decisiones. Funciona en navegador y se adapta a móvil.
 
 ## Recorrido
