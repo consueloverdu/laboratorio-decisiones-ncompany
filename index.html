@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b34">
+  <meta name="description" content="Prototipo de NCompany para pensar una decisión entre dos caminos y explorar metodologías.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=7">
+  <title>Laboratorio de decisiones · NCompany</title>
+  <script src="app.js?v=7" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir al contenido</a>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand">NCOMPANY <small>/ DECISIONES</small></div>
+      <nav class="app-tabs" aria-label="Secciones de la aplicación">
+        <button type="button" id="tab-decision" class="is-active" aria-current="page">Mi decisión</button>
+        <button type="button" id="tab-methods">Metodologías</button>
+      </nav>
+      <span class="prototype-status"><span class="status-dot" aria-hidden="true"></span> Prototipo</span>
+    </header>
+
+    <section class="intro" aria-labelledby="page-title">
+      <div>
+        <p class="eyebrow" id="hero-kicker">UNA HISTORIA DE DECISIÓN</p>
+        <h1 id="page-title">Una buena decisión es el resultado de hacer buenas preguntas<span>.</span></h1>
+        <p class="lead" id="hero-lead">Partimos de tu situación, abrimos tres caminos y tú eliges los dos que merece la pena comparar.</p>
+      </div>
+      <div class="intro-note"><span class="note-icon" aria-hidden="true">✳</span><strong>La IA aún no está conectada.</strong><span>Las propuestas y los argumentos de ejemplo son ficticios o salen de reglas visibles. Puedes editarlos todos.</span></div>
+    </section>
+
+    <main id="main" tabindex="-1">
+      <div id="live-message" class="sr-only" role="status" aria-live="polite"></div>
+      <section id="decision-view" aria-label="Mi decisión">
+        <div class="decision-toolbar"><div class="mode-inline"><span>Recorrido</span><div class="segmented" role="group" aria-label="Elegir modo"><button type="button" id="mode-course" class="is-active" aria-pressed="true">Curso</button><button type="button" id="mode-free" aria-pressed="false">Libre</button></div></div><button type="button" id="load-local" class="text-button">Recuperar caso guardado ↗</button></div>
+
+        <article class="story-card card" id="story-context" aria-labelledby="context-title">
+          <div class="story-heading"><span class="story-number">01</span><div><p class="section-kicker">LA SITUACIÓN</p><h2 id="context-title">Cuéntame qué pasa</h2><p>Escribe lo suficiente para entender la decisión. Podrás corregirlo después.</p></div></div>
+          <div class="case-row" role="group" aria-label="Casos de ejemplo">
+            <button type="button" class="case-card is-selected" data-case="luckia"><span class="case-type">EJEMPLO TEMPORAL · FICTICIO</span><strong>Luckia: elegir un piloto</strong><small>Un caso de negocio para probar el recorrido</small></button>
+            <button type="button" class="case-card" data-case="career"><span class="case-type">EJEMPLO PROFESIONAL · FICTICIO</span><strong>Mi siguiente trabajo</strong><small>Una decisión de carrera</small></button>
+            <button type="button" class="case-card" data-case="blank"><span class="case-type">TU SITUACIÓN</span><strong>Empezar con mi caso</strong><small>Tres plantillas editables por regla</small></button>
+          </div>
+          <p id="case-disclaimer" class="case-disclaimer">Ejemplo temporal ficticio situado en España. Luckia no ha elegido este caso ni sus alternativas; no hay datos internos. <a href="https://www.luckiagaminggroup.com/wp-content/uploads/2025/10/Memoria-Luckia2024ES_final2.pdf" target="_blank" rel="noopener noreferrer">Contexto público ↗</a></p>
+          <div id="context-method-note" class="optional-method-note" hidden></div>
+          <label id="method-reflection-wrap" class="field method-reflection" hidden><span id="method-reflection-question">Pregunta del método</span><textarea id="method-reflection" rows="2" placeholder="Una reflexión breve para esta decisión"></textarea></label>
+          <div class="form-grid context-fields">
+            <label class="field span-2"><span>La decisión, en una frase</span><input id="decision-title" type="text" maxlength="150" placeholder="Ej. Qué iniciativa probar primero"></label>
+            <label class="field span-2"><span>Qué está pasando</span><textarea id="decision-context" rows="3" placeholder="Cuenta el contexto con tus palabras"></textarea></label>
+            <label class="field"><span>Qué quieres conseguir</span><textarea id="decision-objective" rows="2" placeholder="Tu objetivo"></textarea></label>
+            <label class="field"><span>Dato o límite importante</span><textarea id="decision-constraint" rows="2" placeholder="Tiempo, personas, presupuesto, información..."></textarea></label>
+          </div>
+          <div class="course-tip"><span>EN EL CURSO</span><p>Una persona cuenta el caso; otra pregunta qué falta saber antes de comparar.</p></div>
+        </article>
+
+        <article class="story-card card" id="story-options" aria-labelledby="options-title">
+          <div class="story-heading"><span class="story-number">02</span><div><p class="section-kicker">TRES CAMINOS</p><h2 id="options-title">Corrige las propuestas</h2><p>Cada camino incluye un motivo. En esta demo puedes cambiar nombre y razón.</p></div></div>
+          <p id="options-origin" class="origin-note"></p>
+          <div id="options-list" class="option-list"></div>
+          <div class="course-tip"><span>EN EL CURSO</span><p>Buscad una opción prudente, una de cambio y una que permita aprender antes de escalar.</p></div>
+        </article>
+
+        <article class="story-card card" id="story-pick" aria-labelledby="pick-title">
+          <div class="story-heading"><span class="story-number">03</span><div><p class="section-kicker">TU FILTRO</p><h2 id="pick-title">Escoge dos</h2><p>Deja fuera una alternativa por ahora. Podrás cambiar la pareja en cualquier momento.</p></div></div>
+          <div id="pick-list" class="pick-list"></div>
+          <p id="pick-status" class="selection-status" role="status"></p>
+        </article>
+
+        <article class="story-card card" id="story-compare" aria-labelledby="compare-title" hidden>
+          <div class="story-heading"><span class="story-number">04</span><div><p class="section-kicker">LA COMPARACIÓN</p><h2 id="compare-title">Lo que gana y cuesta cada una</h2><p>Los pros y contras son editables. El orden provisional debe decir qué lo sostiene y qué lo cambiaría.</p></div></div>
+          <div id="optional-method-note" class="optional-method-note" hidden></div>
+          <div id="comparison-cards" class="comparison-cards"></div>
+          <div class="order-panel"><span class="mini-label">ORDEN PROVISIONAL · EXPLICADO</span><div id="order-summary" class="order-summary"></div><div class="order-fields"><label class="field"><span>Qué opción va delante por ahora</span><select id="provisional-lead"></select></label><label class="field"><span>Dato o argumento decisivo</span><textarea id="provisional-reason" rows="2" placeholder="Qué dato la pone delante"></textarea></label><label class="field span-2"><span>Qué haría cambiar el orden</span><textarea id="provisional-change" rows="2" placeholder="Una condición concreta para revisar esta lectura"></textarea></label></div></div>
+          <div class="course-tip"><span>EN EL CURSO</span><p>Una persona defiende el orden provisional y otra busca el dato que podría cambiarlo.</p></div>
+        </article>
+
+        <article class="story-card card" id="story-final" aria-labelledby="final-title" hidden>
+          <div class="story-heading"><span class="story-number">05</span><div><p class="section-kicker">TU DECISIÓN</p><h2 id="final-title">Tú decides</h2><p>Puedes seguir el orden provisional o discrepar. Deja escrito por qué y qué harás primero.</p></div></div>
+          <div id="final-choice-list" class="final-choice-list"></div>
+          <label class="field"><span id="final-reason-label">Por qué eliges esta opción</span><textarea id="final-reason" rows="3" placeholder="Explica qué ha pesado más para ti"></textarea></label>
+          <div class="plan-fields">
+            <label class="field"><span>Primera acción</span><textarea id="plan-action" rows="2" placeholder="Una prueba o acción concreta"></textarea></label>
+            <label class="field"><span>Responsable</span><input id="plan-owner" type="text" maxlength="100" placeholder="Persona o equipo"></label>
+            <label class="field"><span>Fecha</span><input id="plan-date" type="date"></label>
+            <label class="field"><span>Señal para revisar la decisión</span><textarea id="plan-review" rows="2" placeholder="Qué tendría que pasar para cambiar de camino"></textarea></label>
+          </div>
+          <p id="final-status" class="selection-status"></p>
+          <div class="deliver-actions"><button type="button" id="download-report" class="button primary">Descargar informe</button><button type="button" id="save-local" class="button ghost">Guardar en este navegador</button></div>
+          <p class="privacy-note">Esta demo no envía datos a un servidor. El guardado es local y voluntario; la IA y las cuentas aún no están conectadas. La versión con cuentas deberá permitir que el facilitador vea los informes individuales.</p>
+          <div class="course-tip"><span>EN EL CURSO</span><p>Explica tu decisión al grupo y define una fecha para comprobar si acertaste.</p></div>
+        </article>
+      </section>
+
+      <section id="catalog-view" aria-labelledby="catalog-title" hidden>
+        <div class="catalog-header"><p class="section-kicker">BIBLIOTECA DE TRABAJO</p><h2 id="catalog-title">Metodologías para pensar</h2><p>Explora 50 modelos de <em>El pequeño libro de las grandes decisiones</em> por familia y uso. Las preguntas y descripciones de esta aplicación están redactadas para el curso; el contenido editorial sigue en revisión.</p></div>
+        <div class="catalog-controls card"><label class="field"><span>Buscar modelo</span><input id="catalog-search" type="search" placeholder="Ej. priorizar, dilema, DAFO"></label><label class="field"><span>Familia</span><select id="catalog-family"><option value="">Todas</option></select></label><label class="field"><span>Uso</span><select id="catalog-use"><option value="">Todos</option></select></label></div>
+        <p id="catalog-count" class="catalog-count"></p>
+        <div id="catalog-list" class="catalog-list"></div>
+      </section>
+    </main>
+    <footer><span>NCOMPANY · PROTOTIPO DE PRODUCTO</span><span>La herramienta ordena preguntas. La decisión final es tuya.</span></footer>
+  </div>
+</body>
+</html>

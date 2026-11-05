@@ -1,0 +1,418 @@
+{
+  "title": "Modelos para pensar decisiones",
+  "source": "El pequeño libro de las grandes decisiones, PDF aportado por la usuaria",
+  "editorialNote": "Descripciones de uso redactadas para la aplicación; no reproducen explicaciones ni diagramas del libro.",
+  "count": 50,
+  "models": [
+    {
+      "id": 1,
+      "name": "Matriz Eisenhower",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Ordena tareas por importancia y urgencia antes de distribuir tu tiempo.",
+      "tag": "personal",
+      "bookPage": 5
+    },
+    {
+      "id": 2,
+      "name": "Análisis SWOT / DAFO",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Examina condiciones internas y externas que afectan una elección concreta.",
+      "tag": "negocio",
+      "bookPage": 6
+    },
+    {
+      "id": 3,
+      "name": "Caja de BCG",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Compara posiciones de una cartera según crecimiento y participación relativa.",
+      "tag": "negocio",
+      "bookPage": 8
+    },
+    {
+      "id": 4,
+      "name": "Matriz de la cartera de proyecto",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Sitúa proyectos en dos ejes elegidos para decidir prioridades.",
+      "tag": "negocio",
+      "bookPage": 9
+    },
+    {
+      "id": 5,
+      "name": "Modelo John Whitmore",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Revisa si el objetivo perseguido responde al problema adecuado.",
+      "tag": "personal",
+      "bookPage": 11
+    },
+    {
+      "id": 6,
+      "name": "Modelo de la goma elástica",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Identifica fuerzas que impulsan y frenan cada camino posible.",
+      "tag": "personal",
+      "bookPage": 12
+    },
+    {
+      "id": 7,
+      "name": "Modelo de las opiniones",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Interpreta críticas y elogios antes de reaccionar o cambiar rumbo.",
+      "tag": "personal",
+      "bookPage": 13
+    },
+    {
+      "id": 8,
+      "name": "Modelo del árbol genealógico",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Visualiza relaciones relevantes para cuidar contactos y pedir apoyo.",
+      "tag": "personal",
+      "bookPage": 14
+    },
+    {
+      "id": 9,
+      "name": "Caja morfológica y técnica SCAMPER",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Combina atributos y transforma ideas para generar alternativas nuevas.",
+      "tag": "creatividad",
+      "bookPage": 15
+    },
+    {
+      "id": 10,
+      "name": "Modelo de regalo de Esquire",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Fija un presupuesto de regalo coherente con ocasión y vínculo.",
+      "tag": "personal",
+      "bookPage": 16
+    },
+    {
+      "id": 11,
+      "name": "Modelo de las consecuencias",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Decide cuándo actuar equilibrando información disponible y margen de maniobra.",
+      "tag": "personal",
+      "bookPage": 17
+    },
+    {
+      "id": 12,
+      "name": "Modelo de resolución de conflictos",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Busca una solución compartida cuando las partes mantienen intereses distintos.",
+      "tag": "equipos",
+      "bookPage": 18
+    },
+    {
+      "id": 13,
+      "name": "Modelo de la encrucijada",
+      "family": "Cómo mejorar uno mismo",
+      "use": "Explora caminos vitales considerando valores, personas influyentes y temores.",
+      "tag": "personal",
+      "bookPage": 19
+    },
+    {
+      "id": 14,
+      "name": "Modelo del estado de flujo",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Reconoce actividades que equilibran reto y capacidad para orientar elecciones.",
+      "tag": "personal",
+      "bookPage": 22
+    },
+    {
+      "id": 15,
+      "name": "Ventana Johari",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Contrasta autopercepción y percepción ajena para descubrir puntos ciegos.",
+      "tag": "comprensión",
+      "bookPage": 23
+    },
+    {
+      "id": 16,
+      "name": "Modelo de disonancia cognitiva",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Detecta tensiones entre creencias, acciones y justificaciones personales.",
+      "tag": "comprensión",
+      "bookPage": 24
+    },
+    {
+      "id": 17,
+      "name": "Matriz de la música",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Usa preferencias musicales como disparador para explorar identidades y gustos.",
+      "tag": "comprensión",
+      "bookPage": 26
+    },
+    {
+      "id": 18,
+      "name": "Modelo inconcebible",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Cuestiona convicciones que sostienes sin poder comprobarlas directamente.",
+      "tag": "comprensión",
+      "bookPage": 26
+    },
+    {
+      "id": 19,
+      "name": "Modelo Uffe Elbak",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Compara cómo te ves, deseas verte y te perciben otros.",
+      "tag": "comprensión",
+      "bookPage": 27
+    },
+    {
+      "id": 20,
+      "name": "Modelo de la moda",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Reflexiona sobre lo que tu apariencia comunica en distintos contextos.",
+      "tag": "comprensión",
+      "bookPage": 29
+    },
+    {
+      "id": 21,
+      "name": "Modelo de la energía",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Observa dónde inviertes energía y si coincide con tus prioridades.",
+      "tag": "personal",
+      "bookPage": 30
+    },
+    {
+      "id": 22,
+      "name": "Modelo Super-Memo",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Programa repasos para conservar aprendizajes útiles al decidir después.",
+      "tag": "comprensión",
+      "bookPage": 31
+    },
+    {
+      "id": 23,
+      "name": "Brújula política",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Sitúa preferencias ideológicas para comprender posiciones y posibles desacuerdos.",
+      "tag": "comprensión",
+      "bookPage": 32
+    },
+    {
+      "id": 24,
+      "name": "Modelo del rendimiento personal",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Contrasta desempeño, satisfacción y aspiraciones antes de cambiar trabajo.",
+      "tag": "personal",
+      "bookPage": 33
+    },
+    {
+      "id": 25,
+      "name": "Modelo de la cimentación",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Revisa experiencias previas para reconocer bases de decisiones futuras.",
+      "tag": "personal",
+      "bookPage": 34
+    },
+    {
+      "id": 26,
+      "name": "Posible trampa personal",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Detecta expectativas que podrían convertir resultados normales en decepciones.",
+      "tag": "personal",
+      "bookPage": 35
+    },
+    {
+      "id": 27,
+      "name": "Modelo de equilibrio trabajo-vida privada",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Examina cómo distribuyes tiempo y energía entre trabajo y vida.",
+      "tag": "personal",
+      "bookPage": 37
+    },
+    {
+      "id": 28,
+      "name": "Modelo de las señales sutiles",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Observa matices de comunicación que cambian la interpretación de relaciones.",
+      "tag": "comprensión",
+      "bookPage": 38
+    },
+    {
+      "id": 29,
+      "name": "Modelo de la red como objetivo",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Revisa la composición de tus relaciones y sus posibles influencias.",
+      "tag": "comprensión",
+      "bookPage": 39
+    },
+    {
+      "id": 30,
+      "name": "Modelo del conocimiento superficial",
+      "family": "Cómo comprenderse mejor a uno mismo",
+      "use": "Define cuánto necesitas entender para actuar sin dominar cada detalle.",
+      "tag": "comprensión",
+      "bookPage": 40
+    },
+    {
+      "id": 31,
+      "name": "Modelo del queso suizo",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Busca fallos acumulados en varias barreras antes de culpar personas.",
+      "tag": "equipos",
+      "bookPage": 41
+    },
+    {
+      "id": 32,
+      "name": "Pirámides de Maslow",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Distingue necesidades básicas y aspiraciones al interpretar motivaciones ajenas.",
+      "tag": "comprensión",
+      "bookPage": 42
+    },
+    {
+      "id": 33,
+      "name": "Modelos Sinus Milieu y Bourdieu",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Explora grupos sociales para comprender comportamientos y segmentar audiencias.",
+      "tag": "negocio",
+      "bookPage": 44
+    },
+    {
+      "id": 34,
+      "name": "Modelo de aprendizaje de doble bucle",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Revisa supuestos del sistema además de corregir errores visibles.",
+      "tag": "equipos",
+      "bookPage": 46
+    },
+    {
+      "id": 35,
+      "name": "Modelo AI de indagación apreciativa",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Construye conversaciones a partir de fortalezas y posibilidades existentes.",
+      "tag": "equipos",
+      "bookPage": 48
+    },
+    {
+      "id": 36,
+      "name": "Modelo del mundo es un pañuelo",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Identifica conexiones indirectas que podrían abrir contactos o difusión.",
+      "tag": "negocio",
+      "bookPage": 49
+    },
+    {
+      "id": 37,
+      "name": "Principio de Pareto",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Busca pocos factores con mayor aportación antes de asignar recursos.",
+      "tag": "negocio",
+      "bookPage": 50
+    },
+    {
+      "id": 38,
+      "name": "Modelo de la larga cola",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Evalúa oportunidades en demandas pequeñas que sumadas pueden importar.",
+      "tag": "negocio",
+      "bookPage": 51
+    },
+    {
+      "id": 39,
+      "name": "Simulacro de Montecarlo",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Explora resultados posibles cuando variables clave presentan incertidumbre.",
+      "tag": "negocio",
+      "bookPage": 52
+    },
+    {
+      "id": 40,
+      "name": "Modelo del cisne negro",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Prepara decisiones para sucesos raros con efectos desproporcionados.",
+      "tag": "negocio",
+      "bookPage": 53
+    },
+    {
+      "id": 41,
+      "name": "Brecha y modelo de difusión",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Examina cómo una innovación avanza entre grupos con ritmos distintos.",
+      "tag": "negocio",
+      "bookPage": 53
+    },
+    {
+      "id": 42,
+      "name": "Modelo de la caja negra",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Reconoce decisiones apoyadas en sistemas cuyos mecanismos no comprendes.",
+      "tag": "comprensión",
+      "bookPage": 54
+    },
+    {
+      "id": 43,
+      "name": "Modelo del estatus",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Interroga señales sociales que influyen en juicios sobre posición ajena.",
+      "tag": "comprensión",
+      "bookPage": 56
+    },
+    {
+      "id": 44,
+      "name": "Dilema del preso",
+      "family": "Cómo entender mejor a los demás",
+      "use": "Analiza incentivos para cooperar o desconfiar en decisiones interdependientes.",
+      "tag": "equipos",
+      "bookPage": 57
+    },
+    {
+      "id": 45,
+      "name": "Modelo del trabajo en equipo de Drexler-Sibbet",
+      "family": "Cómo mejorar a los demás",
+      "use": "Ubica la fase de desarrollo de un equipo y sus bloqueos.",
+      "tag": "equipos",
+      "bookPage": 59
+    },
+    {
+      "id": 46,
+      "name": "Modelo de equipo",
+      "family": "Cómo mejorar a los demás",
+      "use": "Compara capacidades disponibles con las exigidas por un proyecto.",
+      "tag": "equipos",
+      "bookPage": 60
+    },
+    {
+      "id": 47,
+      "name": "Modelo del hueco de mercado",
+      "family": "Cómo mejorar a los demás",
+      "use": "Representa competidores y necesidades para detectar espacios de oferta.",
+      "tag": "negocio",
+      "bookPage": 61
+    },
+    {
+      "id": 48,
+      "name": "Modelo Hersey-Blanchard de liderazgo situacional",
+      "family": "Cómo mejorar a los demás",
+      "use": "Ajusta apoyo y dirección al nivel de autonomía del colaborador.",
+      "tag": "equipos",
+      "bookPage": 63
+    },
+    {
+      "id": 49,
+      "name": "Modelo de interpretar un papel (Belbin y De Bono)",
+      "family": "Cómo mejorar a los demás",
+      "use": "Ensaya perspectivas distintas para examinar una propuesta antes de decidir.",
+      "tag": "equipos",
+      "bookPage": 64
+    },
+    {
+      "id": 50,
+      "name": "Modelo de optimización de resultados",
+      "family": "Cómo mejorar a los demás",
+      "use": "Divide el proyecto en ciclos completos para aprender antes del cierre.",
+      "tag": "equipos",
+      "bookPage": 66
+    }
+  ],
+  "otherOriginalSection": {
+    "name": "Pensar de forma creativa",
+    "bookPage": 43,
+    "note": "Ejercicio temático del índice; separado para mantener las 50 fichas del catálogo."
+  },
+  "additionalAnnex": {
+    "startPdfPage": 76,
+    "endPdfPage": 89,
+    "note": "Comentarios y técnicas añadidos por quien compiló este PDF; no forman parte de la obra original."
+  }
+}

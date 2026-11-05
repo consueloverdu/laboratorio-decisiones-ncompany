@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Tres caminos que parten de un punto">
+  <rect width="512" height="512" rx="108" fill="#173b34"/>
+  <path d="M130 256h91m0 0 93-111h68m-161 111 93 111h68" fill="none" stroke="#e8eee6" stroke-width="29" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="130" cy="256" r="31" fill="#c96e4a"/>
+  <circle cx="382" cy="145" r="31" fill="#9bc1ad"/>
+  <circle cx="382" cy="367" r="31" fill="#9bc1ad"/>
+</svg>
